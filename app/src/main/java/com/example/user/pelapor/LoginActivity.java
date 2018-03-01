@@ -76,26 +76,11 @@ public class LoginActivity extends AppCompatActivity {
             return;
         }
 
-        StringRequest senddata = new StringRequest(Request.Method.POST, serverAPI.URL_INSERT,
+        final StringRequest senddata = new StringRequest(Request.Method.POST, serverAPI.URL_INSERT,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
                         hideDialog();
-                        try {
-                            JSONArray json = new JSONArray(response);
-                            // Mengambil variable status pada response
-                            if(){
-                                // Jika Login Sukses Maka pindah ke activity lain.
-                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                                startActivity(intent);
-                                finish();
-                            }else{
-                                // Jika Login Gagal Maka mengeluarkan Toast dengan message.
-                                Toast.makeText(getApplicationContext(), "Username & Password Salah", Toast.LENGTH_LONG).show();
-                            }
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                        }
                     }
                 },
                 new Response.ErrorListener(){
