@@ -1,0 +1,37 @@
+{
+    "APPLICATION_THEME": "default",
+    "appaddrkey": "",
+    "appidkey": "Pelapor",
+    "appnamekey": "Pelapor",
+    "apppackagekey": "",
+    "appversionkey": "1.0.0",
+    "build": "debug",
+    "category": "app",
+    "createdVizVersion": "8.1.4",
+    "createdgaversion": "8.1.4",
+    "currentgaversion": "8.1.4",
+    "enableCustomData": false,
+    "isDpScaleFactor": true,
+    "isMVC": false,
+    "isNewAppWithRespectToAndroidPackageName": "",
+    "konyVizVersion": "8.1.4",
+    "mastersProperties": {
+        "mastersVersion": "2.0.0"
+    },
+    "mwaddrkey": "",
+    "mwhttpsportkey": "",
+    "mwportkey": "",
+    "project.type": "js",
+    "project_version": "sprint30",
+    "referenceWidth": "375",
+    "startupformkey": "",
+    "vendornamekey": "KonyLabs",
+    "winmobileguidkey": "",
+    "defaulttheme": "defaultTheme",
+    "nativeContainerProperties": {
+        "isModified": true,
+        "isEnableJSContainer": false,
+        "isEnableJSContainerAndroid": false,
+        "isEnableJSContaineriOS": false
+    }
+}
